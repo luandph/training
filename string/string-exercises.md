@@ -7,19 +7,19 @@ Write `mergeStrings` function so that
 - `mergeStrings("abc", "123456")` ⇒ `"a1b2c3456”`
 - `mergeStrings("abc", "123", "xyz")` ⇒ `"a1xb2yc3z”`
 
-### 2. formatCamelCase
+### 2. kebabCaseToCamelCase
 
-Write function `formatCamelCase` so that
+Write function `kebabCaseToCamelCase` so that
 
-- `formatCamelCase(”da-nang”)` ⇒ `"daNang"`
-- `formatCamelCase(”ho-chi-minh-city”)` ⇒ `"hoChiMinhCity"`
+- `kebabCaseToCamelCase(”da-nang”)` ⇒ `"daNang"`
+- `kebabCaseToCamelCase(”ho-chi-minh-city”)` ⇒ `"hoChiMinhCity"`
 
-### 3. formatHyphenCase
+### 3. camelCaseToKebabCase
 
-Write function `formatHyphenCase` so that
+Write function `camelCaseToKebabCase` so that
 
-- `formatHyphenCase(”daNang”)` ⇒ `"da-nang"`
-- `formatHyphenCase(”hoChiMinhCity”)` ⇒ `"ho-chi-minh-city"`
+- `camelCaseToKebabCase(”daNang”)` ⇒ `"da-nang"`
+- `camelCaseToKebabCase(”hoChiMinhCity”)` ⇒ `"ho-chi-minh-city"`
 
 ### 4. isUpperCase
 
