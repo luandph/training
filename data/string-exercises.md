@@ -1,6 +1,6 @@
 ### 1. mergeStrings
 
-Write `mergeStrings` function so that
+Write `mergeStrings` function such that
 
 - `mergeStrings("abc", "123")` ⇒ `"a1b2c3”`
 - `mergeStrings("abcdef", "123")` ⇒ `"a1b2c3def”`
@@ -9,52 +9,52 @@ Write `mergeStrings` function so that
 
 ### 2. kebabCaseToCamelCase
 
-Write function `kebabCaseToCamelCase` so that
+Write function `kebabCaseToCamelCase` such that
 
 - `kebabCaseToCamelCase(”da-nang”)` ⇒ `"daNang"`
 - `kebabCaseToCamelCase(”ho-chi-minh-city”)` ⇒ `"hoChiMinhCity"`
 
 ### 3. camelCaseToKebabCase
 
-Write function `camelCaseToKebabCase` so that
+Write function `camelCaseToKebabCase` such that
 
 - `camelCaseToKebabCase(”daNang”)` ⇒ `"da-nang"`
 - `camelCaseToKebabCase(”hoChiMinhCity”)` ⇒ `"ho-chi-minh-city"`
 
 ### 4. isUpperCase
 
-Write function `isUpperCase` so that
+Write function `isUpperCase` such that
 
 - `isUpperCase("a")` ⇒ `false`
 - `isUpperCase("A")` ⇒ `true`
 
 ### 5. upperLower
 
-Write function `upperLower` so that
+Write function `upperLower` such that
 
 - `upperLower(" a NiCE  dAY ")` ⇒ `" A nIce  Day "`
 
 ### 6. capitalize
 
-Write function `capitalize` so that
+Write function `capitalize` such that
 
 - `capitalize(" a NiCE  dAY ")` ⇒ `" A Nice  Day "`
 
 ### 7. trim
 
-Write function `trim` so that
+Write function `trim` such that
 
 - `trim(" a nice  day ")` ⇒ `"a nice  day"`
 
 ### 8. trimAll
 
-Write function `trimAll` so that
+Write function `trimAll` such that
 
 - `trimAll(" a nice  day ")` ⇒ `"a nice day"`
 
 ### 9. formatNumber
 
-Write function `formatNumber` so that
+Write function `formatNumber` such that
 
 - `formatNumber(1)` ⇒ `"1"`
 - `formatNumber(100000)` ⇒ `"100,000"`
@@ -62,7 +62,7 @@ Write function `formatNumber` so that
 
 ### 10. abba
 
-Write function `abba` so that
+Write function `abba` such that
 
 - `abba("ab", "cde")` ⇒ `"abcdeba"`
 - `abba("Hi", " John ")` ⇒ `"Hi John iH"`
