@@ -255,3 +255,7 @@ sort(array, (person) => person.name);
 ```
 
 **Notes:** Can use javascript "sort" function
+
+### 7. deepEqual
+
+Write function `deepEqual` to check if 2 objects are deeply equal.
