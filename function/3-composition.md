@@ -1,3 +1,7 @@
+### 0. `pipe`
+
+Write function `pipe` that takes a sequence of functions and returns a new function. When the new function is called with an argument, the sequence of functions are called in order, which each one receiving the return value of the previous function.
+
 ### 1. Format and Display User Information
 
 You have user data coming from an API, and you need to format and display it properly. The steps are
@@ -27,8 +31,6 @@ console.log(formatUser({ firstName: "John", lastName: "Doe" })); // "Mr./Ms. JOH
 console.log(formatUser({ firstName: "Jane" })); // "Mr./Ms. JANE"
 console.log(formatUser({})); // "Unknown User"
 ```
-
-**Hints:** for the composition, use the function `pipe` that you wrote in the currying section.
 
 ### 2. Sanitize User Input
 
