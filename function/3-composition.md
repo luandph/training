@@ -28,7 +28,7 @@ console.log(formatUser({ firstName: "Jane" })); // "Mr./Ms. JANE"
 console.log(formatUser({})); // "Unknown User"
 ```
 
-**Hints:** for the composition, use the function `pipe` that use wrote in the currying section.
+**Hints:** for the composition, use the function `pipe` that you wrote in the currying section.
 
 ### 2. Sanitize User Input
 
