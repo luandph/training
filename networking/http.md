@@ -13,11 +13,11 @@ Folder structure
   - index.html
   - image.png
 
-### 2.
+### 1.
 
 Create `GET /` route that serves the file `index.html`.
 
-### 3.
+### 2.
 
 Create `POST /echo` route that returns the same data sent in the request payload and query parameters. For example
 
@@ -37,10 +37,10 @@ Response
 }
 ```
 
-### 4.
+### 3.
 
 Create `GET /image` route that serves the file `image.png`. If the file is missing, return `{"error": "Image not found"}`
 
-### 5.
+### 4.
 
 Create `POST /users/{id}` that returns the JSON response from the external API `https://jsonplaceholder.typicode.com/users/{id}`. If no user found, return `{"error": "User not found"}`
