@@ -259,3 +259,38 @@ sort(array, (person) => person.name);
 ### 7. deepEqual
 
 Write function `deepEqual` to check if 2 objects are deeply equal.
+
+### 8. getPathData & setPathData
+
+Given the object
+
+```js
+const obj = {
+  "name": "Luan",
+  "address": {
+    "line1": "Danang",
+  },
+};
+```
+
+Write function `getPathData` such that
+
+```js
+getPathData(obj, ["name"]); // "Luan"
+getPathData(obj, ["address", "line1"]); // "Danang"
+getPathData(obj, ["age"]); // undefined
+```
+
+Write function `setPathData` such that
+
+```js
+setPathData(obj, ["name"], "Son");
+// return new object
+{
+  "name": "Son",
+  "address": {
+    "line1": "Danang",
+  },
+}
+// and the old object obj is unchanged.
+```

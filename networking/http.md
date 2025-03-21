@@ -44,3 +44,7 @@ Create `GET /image` route that serves the file `image.png`. If the file is missi
 ### 4.
 
 Create `POST /users/{id}` that returns the JSON response from the external API `https://jsonplaceholder.typicode.com/users/{id}`. If no user found, return `{"error": "User not found"}`
+
+### 4.
+
+For undefined routes, return "404 Not Found".
