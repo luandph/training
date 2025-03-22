@@ -21,7 +21,7 @@ Users should be able to:
 ### What you will learn
 
 - Start a React project from scratch
-- Understand and be able to use Chain Services
+- Get familiar with Chain Services
 - Understand and be able to use utility functions: `setPath`, `getPath`, `cascadeFind`, `cascadeChange`, `scope`, ...
 - CSS/SCSS good practices
 - Responsive design
